@@ -3,9 +3,9 @@ import ReactStars from "react-rating-stars-component";
 import { CiHeart } from "react-icons/ci";
 import { IoCartOutline } from "react-icons/io5";
 import { toast } from 'react-toastify';
-// import { useContext } from "react";
-// import { CartContext } from "../Context/cartContext";
-// import { WishContext } from "../Context/wishContext";
+import { useContext } from "react";
+import { CartContext } from "../Context/cartContext";
+import { WishContext } from "../Context/wishContext";
 import PageTitle from "../PageTitle/PageTitle";
 
 
@@ -15,43 +15,43 @@ export default function ProductDetails() {
     const datum = data.find(datum => datum.product_id === id);
 
 
-    // const notifyWish = (message) => {
-    //     message === "Item added to wishlist"
-    //         ? toast.success(message, {
-    //             position: "top-center",
-    //         })
-    //         : toast.error(message, {
-    //             position: "top-center",
-    //         });
-    // };
-    // //Add wish list functionality
-    // const wish = useContext(WishContext)
-    // const { addWish, setAddWish } = wish;
-    // const handleAddToWish = (datum) => {
-    //     if (!addWish.map(item => item.product_id).includes(datum.product_id)) {
-    //         setAddWish([...addWish, datum]);
-    //         notifyWish('Item added to wishlist');
-    //         return
-    //     }
-    //     notifyWish('Product already added to Wishlist');
+    const notifyWish = (message) => {
+        message === "Item added to wishlist"
+            ? toast.success(message, {
+                position: "top-center",
+            })
+            : toast.error(message, {
+                position: "top-center",
+            });
+    };
+    //Add wish list functionality
+    const wish = useContext(WishContext)
+    const { addWish, setAddWish } = wish;
+    const handleAddToWish = (datum) => {
+        if (!addWish.map(item => item.product_id).includes(datum.product_id)) {
+            setAddWish([...addWish, datum]);
+            notifyWish('Item added to wishlist');
+            return
+        }
+        notifyWish('Product already added to Wishlist');
 
-    // }
+    }
 
-    // const isWishList = addWish.map(item => item.product_id).includes(datum.product_id);
-
-
-    // //Add to cart functionality error
-    // const value = useContext(CartContext)
-    // const { handleAddToCart } = value
+    const isWishList = addWish.map(item => item.product_id).includes(datum.product_id);
 
 
-    // const { product_image, product_title, price, availability, description, Specification, rating } = datum;
+    //Add to cart functionality error
+    const value = useContext(CartContext)
+    const { handleAddToCart } = value
 
-    // const ratingStar = {
-    //     size: 30,
-    //     value: rating,
-    //     edit: false
-    // };
+
+    const { product_image, product_title, price, availability, description, Specification, rating } = datum;
+
+    const ratingStar = {
+        size: 30,
+        value: rating,
+        edit: false
+    };
     return (
 
         <div className="relative flex flex-col items-center md:mb-[550px] ">

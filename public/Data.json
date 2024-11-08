@@ -2,9 +2,9 @@
     {
         "product_id": "1",
         "product_title": "Dell XPS 13",
-        "product_image": "https://i.ibb.co.com/mGGNc5B/1.jpg",
+        "product_image": "https://i.ibb.co.com/hyBcZNh/laptop-with-white-screen-isolated-white-wall.jpg",
         "category": "Laptops",
-        "price": 999.99,
+        "price": 999,
         "description": "A high-performance laptop with a sleek design.",
         "Specification": [
             "Intel Core i7",
@@ -18,9 +18,9 @@
     {
         "product_id": "2",
         "product_title": "Logitech MX Master 3",
-        "product_image": "https://i.ibb.co.com/Qc9TdnY/2.jpg",
+        "product_image": "https://i.ibb.co.com/zxdcxLf/download-5.jpg",
         "category": "Accessories",
-        "price": 99.99,
+        "price": 99,
         "description": "Advanced wireless mouse with ergonomic design.",
         "Specification": [
             "Bluetooth and USB receiver",
@@ -35,7 +35,7 @@
         "product_title": "Apple MacBook Air",
         "product_image": "https://i.ibb.co.com/t4zKS8S/3.jpg",
         "category": "MacBooks",
-        "price": 1099.99,
+        "price": 1099,
         "description": "Ultra-thin and lightweight laptop with powerful performance.",
         "Specification": [
             "Apple M1 chip",
@@ -48,10 +48,10 @@
     },
     {
         "product_id": "4",
-        "product_title": "Samsung Galaxy S21",
+        "product_title": "Samsung Galaxy S23",
         "product_image": "https://i.ibb.co.com/nggxfNM/4.jpg",
         "category": "Phones",
-        "price": 799.99,
+        "price": 799,
         "description": "A smartphone with an impressive camera and long battery life.",
         "Specification": [
             "6.2 inch display",
@@ -66,7 +66,7 @@
         "product_title": "iPhone 13",
         "product_image": "https://i.ibb.co.com/TPHcyvj/5.jpg",
         "category": "iPhones",
-        "price": 899.99,
+        "price": 899,
         "description": "The latest iPhone with advanced features and a stunning design.",
         "Specification": [
             "A15 Bionic chip",
@@ -140,7 +140,7 @@
     },
     {
         "product_id": "10",
-        "product_title": "Apple MacBook Pro 16",
+        "product_title": "Apple MacBook Pro 13",
         "product_image": "https://i.ibb.co.com/y6p7SnY/10.jpg",
         "category": "MacBooks",
         "price": 2399.99,
@@ -154,21 +154,7 @@
         "availability": true,
         "rating": 4.8
     },
-    {
-        "product_id": "11",
-        "product_title": "OnePlus 9",
-        "product_image": "https://i.ibb.co.com/1TctKtf/11.png",
-        "category": "Phones",
-        "price": 699.99,
-        "description": "Flagship smartphone with fast charging and great camera.",
-        "Specification": [
-            "6.55 inch display",
-            "128GB storage",
-            "Triple camera system"
-        ],
-        "availability": true,
-        "rating": 4.6
-    },
+    
     {
         "product_id": "12",
         "product_title": "Google Pixel 6",
@@ -260,21 +246,7 @@
         "availability": true,
         "rating": 4.3
     },
-    {
-        "product_id": "18",
-        "product_title": "Anker Soundcore Life Q30",
-        "product_image": "https://i.ibb.co.com/TK5zGb9/18.jpg",
-        "category": "Accessories",
-        "price": 89.99,
-        "description": "Active noise canceling headphones with long battery life.",
-        "Specification": [
-            "40 hours battery life",
-            "Multiple ANC modes",
-            "Comfortable design"
-        ],
-        "availability": true,
-        "rating": 4.6
-    },
+    
     {
         "product_id": "19",
         "product_title": "Asus ZenBook 14",
@@ -291,21 +263,7 @@
         "availability": true,
         "rating": 4.4
     },
-    {
-        "product_id": "20",
-        "product_title": "Oculus Quest 2",
-        "product_image": "https://i.ibb.co.com/wYdnb87/20.jpg",
-        "category": "Accessories",
-        "price": 299.99,
-        "description": "All-in-one virtual reality headset.",
-        "Specification": [
-            "64GB storage",
-            "Standalone operation",
-            "High-resolution display"
-        ],
-        "availability": true,
-        "rating": 4.7
-    },
+   
     {
         "product_id": "21",
         "product_title": "iPhone 16 Pro Max",

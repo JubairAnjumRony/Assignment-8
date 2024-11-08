@@ -7,14 +7,13 @@ import {
 } from "react-router-dom";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
-import Statistics from './components/Statistics/Statistics';
 import Root from './components/Root/Root';
+import ErrorPage from './components/Error/ErrorPage';
 import Home from './components/Home/Home';
-import ErrorPage from './components/Error/Error';
 import Dashboard from './components/Dashboard/Dashboard';
+import Statistics from './components/Statistics/Statistics';
 import ProductDetails from './components/Details/ProductDetails';
-
+import HelpAndSupport from './components/HelpAndSupport/HelpAndSupport';
 
 
 const router = createBrowserRouter([
@@ -37,7 +36,11 @@ const router = createBrowserRouter([
         element: <Statistics />,
         loader: () => fetch('/Data.json')
       },
-    
+      {
+        path: "/help",
+        element: <HelpAndSupport />,
+        loader: () => fetch('/HelpAndSupport.json')
+      },
       {
         path: "/product/:id",
         element: <ProductDetails />,
@@ -53,4 +56,3 @@ createRoot(document.getElementById('root')).render(
     <ToastContainer />
   </StrictMode>,
 )
-
