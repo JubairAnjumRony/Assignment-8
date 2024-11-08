@@ -1,0 +1,152 @@
+[
+    {
+        "product_id": 1,
+        "product_title": "High-Performance Laptop",
+        "product_image": "https://i.ibb.co.com/hyBcZNh/laptop-with-white-screen-isolated-white-wall.jpg",
+        "category": "Computers",
+        "price": 950,
+        "description": "A powerful laptop suitable for multitasking and gaming.",
+        "Specification": [
+            "16GB RAM",
+            "512GB SSD",
+            "Intel i7 Processor"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": 2,
+        "product_title": "All-in-One Desktop",
+        "product_image": "https://i.ibb.co.com/hyBcZNh/laptop-with-white-screen-isolated-white-wall.jpg",
+        "category": "Computers",
+        "price": 1200,
+        "description": "A sleek all-in-one desktop for home and office use.",
+        "Specification": [
+            "8GB RAM",
+            "1TB HDD",
+            "23-inch Display"
+        ],
+        "availability": true,
+        "rating": 4.2
+    },
+    {
+        "product_id": 3,
+        "product_title": "Gaming Desktop",
+        "product_image": "https://i.ibb.co.com/hyBcZNh/laptop-with-white-screen-isolated-white-wall.jpg",
+        "category": "Computers",
+        "price": 1500,
+        "description": "High-end gaming desktop with advanced graphics.",
+        "Specification": [
+            "32GB RAM",
+            "1TB SSD",
+            "NVIDIA RTX 3080"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": 4,
+        "product_title": "Compact Mini PC",
+        "product_image": "https://i.ibb.co.com/hyBcZNh/laptop-with-white-screen-isolated-white-wall.jpg",
+        "category": "Computers",
+        "price": 650,
+        "description": "A compact and portable mini PC for basic computing tasks.",
+        "Specification": [
+            "4GB RAM",
+            "128GB SSD",
+            "Intel Celeron Processor"
+        ],
+        "availability": false,
+        "rating": 3.9
+    },
+    {
+        "product_id": 5,
+        "product_title": "Convertible 2-in-1 Laptop",
+        "product_image": "https://i.ibb.co.com/hyBcZNh/laptop-with-white-screen-isolated-white-wall.jpg",
+        "category": "Computers",
+        "price": 850,
+        "description": "A 2-in-1 laptop that can be used as a tablet.",
+        "Specification": [
+            "8GB RAM",
+            "256GB SSD",
+            "Touchscreen Display"
+        ],
+        "availability": true,
+        "rating": 4.1
+    },
+    {
+        "product_id": 6,
+        "product_title": "Ultra-Thin Laptop",
+        "product_image": "https://example.com/images/thin_laptop.jpg",
+        "category": "Computers",
+        "price": 780,
+        "description": "An ultra-thin laptop for portability and style.",
+        "Specification": [
+            "8GB RAM",
+            "256GB SSD",
+            "Intel i5 Processor"
+        ],
+        "availability": false,
+        "rating": 4.3
+    },
+    {
+        "product_id": 7,
+        "product_title": "Smartphone Pro",
+        "product_image": "https://example.com/images/smartphone_pro.jpg",
+        "category": "Phones",
+        "price": 950,
+        "description": "A premium smartphone with cutting-edge features.",
+        "Specification": [
+            "128GB Storage",
+            "6.5-inch OLED Display",
+            "Triple Camera System"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": 8,
+        "product_title": "Budget Smartphone",
+        "product_image": "https://example.com/images/budget_smartphone.jpg",
+        "category": "Phones",
+        "price": 250,
+        "description": "An affordable smartphone with essential features.",
+        "Specification": [
+            "64GB Storage",
+            "6-inch LCD Display",
+            "Single Camera"
+        ],
+        "availability": true,
+        "rating": 4.0
+    },
+    {
+        "product_id": 9,
+        "product_title": "Fitness Smart Watch",
+        "product_image": "https://example.com/images/fitness_watch.jpg",
+        "category": "Smart Watches",
+        "price": 180,
+        "description": "A smart watch designed for fitness tracking.",
+        "Specification": [
+            "Heart Rate Monitor",
+            "GPS",
+            "Water Resistant"
+        ],
+        "availability": true,
+        "rating": 4.3
+    },
+    {
+        "product_id": 10,
+        "product_title": "Luxury Smart Watch",
+        "product_image": "https://example.com/images/luxury_watch.jpg",
+        "category": "Smart Watches",
+        "price": 450,
+        "description": "A luxury smart watch with high-end features.",
+        "Specification": [
+            "Stainless Steel Body",
+            "OLED Display",
+            "Health Tracking"
+        ],
+        "availability": false,
+        "rating": 4.6
+    }
+]
