@@ -2,7 +2,7 @@
 
 Welcome to **GadgetHeaven**, your go-to destination for the latest and greatest gadgets! This fully functional e-commerce platform is built with **React** and utilizes the **Context API** to manage the cart and wishlist, providing a seamless user experience.
 
-Project-Link:
+Project-Link:https://github.com/programming-hero-web-course2/b10a8-gadget-heaven-JubairAnjumRony
 LIve-LInk:https://imaginative-rabanadas-61b2db.netlify.app/
 
 ## Project Overview
@@ -11,7 +11,7 @@ GadgetHeaven is a feature-rich e-commerce platform where users can browse, filte
 
 ---
 
-     ## Features
+## Features
 
 - **Responsive Navbar** with active route highlighting.
 - **Product Categories Sidebar** to filter products by categories (Computers, Phones, etc.).
@@ -29,13 +29,6 @@ GadgetHeaven is a feature-rich e-commerce platform where users can browse, filte
 
 ---
 
-
-
-    ## React Concepts and Tools Used
-
-Certainly! Here’s the updated section reflecting the use of **Tailwind CSS** and **DaisyUI** along with the other libraries and tools:
-
----
 
 ## React Concepts and Tools Used
 
