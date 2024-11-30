@@ -29,13 +29,8 @@ GadgetHeaven is a feature-rich e-commerce platform where users can browse, filte
 ---
 
 
-## React Concepts and Tools Used
 
-Certainly! Here's the updated section with **React Router** highlighting both **navigation** and **dynamic routes**:
-
----
-
-## React Fundamental Concepts and Tools Used in this Projuect
+## React Fundamental Concepts and Tools Used in this Project
 
 - **React Router** for navigation between pages and dynamic routes (enabling seamless transitions between different pages and loading content dynamically based on URL parameters).
 - **Tailwind CSS** for utility-first CSS styling.
