@@ -1,10 +1,10 @@
 [
     {
         "product_id": "1",
-        "product_title": "Dell XPS 13",
-        "product_image": "https://i.ibb.co.com/hyBcZNh/laptop-with-white-screen-isolated-white-wall.jpg",
+        "product_title": "Asus Zenbook Duo",
+        "product_image": "https://i.ibb.co.com/L6C7sVK/download-3.jpg",
         "category": "Laptops",
-        "price": 999,
+        "price": 1999,
         "description": "A high-performance laptop with a sleek design.",
         "Specification": [
             "Intel Core i7",
@@ -17,10 +17,10 @@
     },
     {
         "product_id": "2",
-        "product_title": "Logitech MX Master 3",
-        "product_image": "https://i.ibb.co.com/zxdcxLf/download-5.jpg",
+        "product_title": "VGN F1",
+        "product_image": "https://i.ibb.co.com/4JKkpqC/VGN.jpg",
         "category": "Accessories",
-        "price": 99,
+        "price": 69,
         "description": "Advanced wireless mouse with ergonomic design.",
         "Specification": [
             "Bluetooth and USB receiver",
@@ -32,10 +32,10 @@
     },
     {
         "product_id": "3",
-        "product_title": "Apple MacBook Air",
+        "product_title": "Apple MacBook Pro M2",
         "product_image": "https://i.ibb.co.com/t4zKS8S/3.jpg",
         "category": "MacBooks",
-        "price": 1099,
+        "price": 1399,
         "description": "Ultra-thin and lightweight laptop with powerful performance.",
         "Specification": [
             "Apple M1 chip",
@@ -48,10 +48,10 @@
     },
     {
         "product_id": "4",
-        "product_title": "Samsung Galaxy S23",
-        "product_image": "https://i.ibb.co.com/nggxfNM/4.jpg",
+        "product_title": "Samsung Galaxy S23 Ultra",
+        "product_image": "https://i.ibb.co.com/YfP9cQM/download-7.jpg",
         "category": "Phones",
-        "price": 799,
+        "price": 1299,
         "description": "A smartphone with an impressive camera and long battery life.",
         "Specification": [
             "6.2 inch display",
@@ -63,18 +63,18 @@
     },
     {
         "product_id": "5",
-        "product_title": "iPhone 13",
-        "product_image": "https://i.ibb.co.com/TPHcyvj/5.jpg",
-        "category": "iPhones",
-        "price": 899,
-        "description": "The latest iPhone with advanced features and a stunning design.",
+        "product_title": "Lenovo ThinkPad X1 Carbon Gen 11",
+        "product_image": "https://i.ibb.co.com/tKtdrP3/download-6.jpg",
+        "category": "Laptops",
+        "price": 1799,
+        "description": "A lightweight, durable laptop with top-notch performance and enterprise-grade security.",
         "Specification": [
-            "A15 Bionic chip",
-            "Super Retina XDR display",
-            "Dual-camera system"
+            "Intel Core i7-1360P",
+            "14-inch WQXGA (2560x1600) display",
+            "16GB LPDDR5 RAM, 512GB SSD"
         ],
         "availability": true,
-        "rating": 4.9
+        "rating": 4.8
     },
     {
         "product_id": "6",
@@ -110,34 +110,20 @@
     },
     {
         "product_id": "8",
-        "product_title": "Anker PowerCore 20100",
-        "product_image": "https://i.ibb.co.com/bXDfdWr/8.jpg",
-        "category": "Accessories",
-        "price": 59.99,
-        "description": "High-capacity portable charger.",
+        "product_title": "MSI Stealth 16 Studio",
+        "product_image": "https://i.ibb.co.com/wRdWMzV/download-4.jpg",
+        "category": "Laptops",
+        "price": 2199,
+        "description": "A sleek, high-performance gaming and creative laptop with cutting-edge graphics.",
         "Specification": [
-            "20100mAh capacity",
-            "Dual USB ports",
-            "Fast charging technology"
+            "Intel Core i9-13900H",
+            "16-inch QHD+ (2560x1600) display",
+            "NVIDIA GeForce RTX 4070, 32GB DDR5 RAM, 1TB SSD"
         ],
         "availability": true,
-        "rating": 4.5
+        "rating": 4.7
     },
-    {
-        "product_id": "9",
-        "product_title": "Bose QuietComfort 35 II",
-        "product_image": "https://i.ibb.co.com/k4H6Vyn/9.png",
-        "category": "Accessories",
-        "price": 299.99,
-        "description": "Wireless noise-canceling headphones.",
-        "Specification": [
-            "Up to 20 hours battery life",
-            "Voice assistant integration",
-            "Comfortable fit"
-        ],
-        "availability": true,
-        "rating": 4.9
-    },
+   
     {
         "product_id": "10",
         "product_title": "Apple MacBook Pro 13",
@@ -170,21 +156,7 @@
         "availability": true,
         "rating": 4.7
     },
-    {
-        "product_id": "13",
-        "product_title": "Sony WH-1000XM4",
-        "product_image": "https://i.ibb.co.com/2gFvq05/13.jpg",
-        "category": "Accessories",
-        "price": 349.99,
-        "description": "Industry-leading noise canceling headphones.",
-        "Specification": [
-            "30 hours battery life",
-            "Touch sensor controls",
-            "Adaptive sound control"
-        ],
-        "availability": true,
-        "rating": 4.8
-    },
+
     {
         "product_id": "14",
         "product_title": "MacBook Air (M1, 2020)",
@@ -202,8 +174,8 @@
     },
     {
         "product_id": "15",
-        "product_title": "Apple Watch Series 7",
-        "product_image": "https://i.ibb.co.com/sK9Lksc/15.jpg",
+        "product_title": "Apple Watch Series 9",
+        "product_image": "https://i.ibb.co.com/rFPFqS3/download-2.jpg",
         "category": "Accessories",
         "price": 399.99,
         "description": "Smartwatch with fitness tracking and health monitoring.",
@@ -217,8 +189,8 @@
     },
     {
         "product_id": "16",
-        "product_title": "Xiaomi Mi 11",
-        "product_image": "https://i.ibb.co.com/r2ZpQSr/16.png",
+        "product_title": "One Plus 12",
+        "product_image": "https://i.ibb.co.com/qJKqkyn/download.jpg",
         "category": "Phones",
         "price": 749.99,
         "description": "Flagship smartphone with high-end specifications.",
@@ -232,10 +204,10 @@
     },
     {
         "product_id": "17",
-        "product_title": "Acer Aspire 5",
+        "product_title": "Acer Aspire 7",
         "product_image": "https://i.ibb.co.com/zStv9kS/17.jpg",
         "category": "Laptops",
-        "price": 549.99,
+        "price": 559.99,
         "description": "Affordable laptop with solid performance for everyday tasks.",
         "Specification": [
             "Intel Core i5",
@@ -248,7 +220,7 @@
     },
     
     {
-        "product_id": "19",
+        "product_id": "18",
         "product_title": "Asus ZenBook 14",
         "product_image": "https://i.ibb.co.com/FmtqXJL/19.png",
         "category": "Laptops",
@@ -262,24 +234,7 @@
         ],
         "availability": true,
         "rating": 4.4
-    },
-   
-    {
-        "product_id": "21",
-        "product_title": "iPhone 16 Pro Max",
-        "product_image": "https://i.ibb.co.com/VH06r9P/21.jpg",
-        "category": "iPhones",
-        "price": 1199.00,
-        "description": "The most powerful iPhone ever, featuring a revolutionary design, incredible camera system, and blazing-fast performance.",
-        "Specification": [
-            "A18 Bionic chip",
-            "6.9-inch Super Retina XDR display with 120Hz refresh rate.",
-            "48MP Quad-camera system with improved low-light performance.",
-            "Up to 1TB of storage",
-            "Always-On display",
-            "Generative AI features in various apps"
-        ],
-        "availability": true,
-        "rating": 5.0
     }
+   
+  
 ]

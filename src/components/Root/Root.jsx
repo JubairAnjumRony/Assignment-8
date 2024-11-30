@@ -27,17 +27,17 @@ const Root = () => {
         notify('Product already added to cart');
     }
 
-    //Handle Delete
+   
     const handleDelete = (item) => {
         setAddCart(addCart.filter(product => product !== item))
     }
-    //Handle WishDelete
+   
     const handleWishDelete = (item) => {
         setAddWish(addWish.filter(product => product !== item))
     }
     //For wish list
     const [addWish, setAddWish] = useState([])
-
+    // for handle sort
     const handleSort = () => {
         const sortedProducts = [...addCart].sort((a, b) => b.price - a.price);  // Descending order
         setAddCart(sortedProducts);
@@ -52,6 +52,7 @@ const Root = () => {
                     <Navbar />
                     <Outlet />
                     <Footer />
+
                 </div>
             </WishContext.Provider>
         </CartContext.Provider>

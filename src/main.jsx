@@ -1,6 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
+// import PageTitle from './components/PageTitle/PageTitle';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -13,7 +14,8 @@ import Home from './components/Home/Home';
 import Dashboard from './components/Dashboard/Dashboard';
 import Statistics from './components/Statistics/Statistics';
 import ProductDetails from './components/Details/ProductDetails';
-import HelpAndSupport from './components/HelpAndSupport/HelpAndSupport';
+import TechSpotlight from './components/TechSpot/TechSpotLIght';
+
 
 
 const router = createBrowserRouter([
@@ -27,6 +29,13 @@ const router = createBrowserRouter([
         element: <Home />,
         loader: () => fetch('/Data.json')
       },
+       
+      {
+        path: '/category/:category',
+        element: <Home/>,
+        loader: ()=> fetch('../Data.json'), /*this part will show gadgets accroding to their category */
+ },
+
       {
         path: "/dashboard",
         element: <Dashboard />,
@@ -36,10 +45,11 @@ const router = createBrowserRouter([
         element: <Statistics />,
         loader: () => fetch('/Data.json')
       },
+    
       {
-        path: "/help",
-        element: <HelpAndSupport />,
-        loader: () => fetch('/HelpAndSupport.json')
+          path:"/TechSpotlight",
+          element:<TechSpotlight/>
+
       },
       {
         path: "/product/:id",

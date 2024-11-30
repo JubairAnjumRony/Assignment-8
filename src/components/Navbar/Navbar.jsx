@@ -16,7 +16,8 @@ export default function Navbar() {
         <li><NavLink to='/'>Home</NavLink></li>
         <li><NavLink to='/statistics'>Statistics</NavLink></li>
         <li><NavLink to='/dashboard'>Dashboard</NavLink></li>
-        <li><NavLink to='/help'>Help and Support</NavLink></li>
+        {/* <li><NavLink to='/help'>Help and Support</NavLink></li> */}
+        <li><NavLink to='/TechSpotlight'>SpotLight</NavLink></li>
     </>
     return (
         <div className={location.pathname === '/' ? 'bg-[#9538E2]' : 'bg-base-100'}>

@@ -2,7 +2,7 @@
 
 Welcome to **GadgetHeaven**, your go-to destination for the latest and greatest gadgets! This fully functional e-commerce platform is built with **React** and utilizes the **Context API** to manage the cart and wishlist, providing a seamless user experience.
 
-Project-Link:https://github.com/programming-hero-web-course2/b10a8-gadget-heaven-JubairAnjumRony
+Project-Link:
 LIve-LInk:https://imaginative-rabanadas-61b2db.netlify.app/
 
 ## Project Overview

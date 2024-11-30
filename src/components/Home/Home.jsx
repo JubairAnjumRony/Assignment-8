@@ -34,13 +34,13 @@ export default function Home() {
         setData([]);
     }
     return (
-        <div className="bg-[#09080F0D] pb-20">
+        <div className="bg-[#09080F0D] pb-20 ">
             <PageTitle title={"Home"} />
             <Banner />
             <div className="container md:mx-auto p-2" id="main">
                 <h2 className="text-3xl font-semibold text-center mb-10">Explore Cutting-Edge Gadgets</h2>
 
-                <div className="grid grid-cols-1 md:grid-cols-11 gap-5">
+                <div className="grid grid-cols-1 md:grid-cols-11 gap-5 mx-8">
 
                     <div className="md:col-span-2 border h-auto p-2 rounded-xl shadow-xl bg-white md:h-[450px] md:flex">
                         <div className="grid grid-cols-2 md:grid-cols-1 gap-3 w-full ">
